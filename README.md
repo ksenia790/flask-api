@@ -3,7 +3,7 @@
 <ul>
   <li>implemented REST API that accepts POST requests as input;</li>
   <li>saving query data to database;</li>
-  <li>API method to get last quesyion from last query;</li>
+  <li>API method to get last question from last query;</li>
   <li>API method to get all data from database.</li>
 </ul>
 <h2 align='center'>Fast start with Docker-compose</h2>
@@ -29,7 +29,7 @@ Follow API DOCUMENTATION below.
 
 ## Avalible API methods for blog posts:
 
-**GET** `  ` - Retrieve All Questions And Answers from Database
+**GET** ` / ` - Retrieve All Questions And Answers from Database
  <br>
 **POST** ` /question_num/<int:number> ` - Pulling Requested Number Of Questions From Public API And Loads Them Into The Database. After Displays last question was loaded.
  <br>

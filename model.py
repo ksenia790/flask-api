@@ -32,7 +32,7 @@ class Quizz(db.Model):
         db.session.add(self)
         db.session.commit()
 
-# db.create_all()
+db.create_all()
 
 class QuizzSchema(ma.Schema):
     class Meta:
