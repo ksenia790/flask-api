@@ -36,11 +36,14 @@ class Quizz(db.Model):
 
 class QuizzSchema(ma.Schema):
     class Meta:
-        fields = ("question",)
+        fields = ("question", "answer")
 
 
 @app.route('/', methods=['GET'])
-def get_all_questions():
+def get_all_questions() -> json:
+    """
+        Return all questions and answers from database
+    """
     all_questions = db.session.query(Quizz).all()
     serializer = QuizzSchema(many=True)
     data = serializer.dump(all_questions)
