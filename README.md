@@ -22,6 +22,7 @@ Follow API DOCUMENTATION below.
 ## How to get started if you don't have docker or docker-compose
 1. Clone the project
 2. Instal all requirements ` pip install -r requirements.txt `
+3. Provide the "FLASK_APP" environment variable ` set FLASK_APP=model.py `
 3. Run the app ` flask run `
 
 Follow API DOCUMENTATION below.
