@@ -17,11 +17,12 @@ Once you've cloned the project navigate to the root directory of the project. Ru
 
 The docker-compose command will build the images from dockerfile and docker-compose.yml file. This will create ports, links between containers, and configure applications as requrired. After the command completes we can now view the status of our stack
 
-2. ` docker-compose ps `
+Follow API DOCUMENTATION below.
 
-And finally run the web-server:
-
-4. ` docker-compose run web_run `
+## How to get started if you don't have docker or docker-compose
+1. Clone the project
+2. Instal all requirements ` pip install -r requirements.txt `
+3. Run the app ` flask run `
 
 Follow API DOCUMENTATION below.
 
