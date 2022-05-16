@@ -1,4 +1,4 @@
-<h1 align='center'>FLASK API</h1>
+<h1 align='center'>FLASK API+SQLAlchemy+SQLite3</h1>
 <p> In this project was implemented simple web service using Flask, which performs the following functions: </p>
 <ul>
   <li>implemented REST API that accepts POST requests as input;</li>
